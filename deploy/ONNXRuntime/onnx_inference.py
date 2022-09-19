@@ -27,7 +27,7 @@ def make_parser():
         "-i",
         "--video_path",
         type=str,
-        default='../../videos/palace.mp4',
+        default='../../demo/demo.mp4',
         help="Path to your input image.",
     )
     parser.add_argument(
